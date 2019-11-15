@@ -1,0 +1,16 @@
+{
+  "kind": "Pod",
+  "apiVersion":"v1",
+  "metadata": {
+        "name": "test-dnsmasq",
+        "labels": {
+                "name": "test-dnsmasq"
+        }
+  },
+  "spec": {
+      "containers": [{
+        "name": "test-dnsmasq",
+        "image": "lihongan/test-dnsmasq"
+      }]
+  }
+}
